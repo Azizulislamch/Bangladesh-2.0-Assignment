@@ -495,3 +495,42 @@ table tbody td {
     color: rgb(14, 14, 14, .3);
     border-radius: 8px 0px 0px 8px;
 }
+
+
+/* ===== Footer Style ===== */
+footer {
+    text-align: center;
+    background-color: white;
+}
+
+footer a{
+    text-decoration: none;
+    color: rgb(14, 14, 14);
+}
+
+.footer-content {
+    padding: 50px 50px;
+}
+
+.footer-title {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 32px;
+}
+
+
+footer hr {
+    border: 1px solid rgba(14, 14, 14, 0.1);
+    margin: 32px 0 32px 0;
+}
+
+
+.social {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 10px 0px 0px;
+    margin-bottom: 20px;
+}
