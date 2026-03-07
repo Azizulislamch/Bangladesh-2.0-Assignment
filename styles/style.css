@@ -402,3 +402,58 @@ table tbody td {
 .n-btn:hover {
     background: rgb(1, 155, 116);
 }
+
+
+/* ===== Donate Section ===== */
+.text-center {
+    text-align: center;
+}
+
+.donate-amount {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 24px;
+    height: 80px;
+    margin-bottom: 32px;
+}
+
+.donate-section p {
+    margin-bottom: 50px;
+}
+
+.d-amount {
+    background-color: white;
+    padding: 40px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 40px;
+    font-weight: 700;
+    overflow: hidden;
+}
+
+.d-amount:hover {
+    background-color: rgb(198, 228, 214);
+}
+
+.custom-donate {
+    height: 65px;
+    margin-bottom: 70px;
+}
+
+#donate {
+    width: 85%;
+    padding: 20px 40px;
+    border: 1px solid rgb(14, 14, 14, .15);
+    border-radius: 5px;
+    margin: 32px 0px;
+    font-size: 20px;
+    color: rgb(14, 14, 14, .3);
+    text-align: center;
+}
+
+#donate:hover {
+    background-color: rgb(198, 228, 214);
+}
