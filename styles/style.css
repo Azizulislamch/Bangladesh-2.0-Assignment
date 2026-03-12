@@ -673,6 +673,10 @@ footer hr {
         width: 100%;
     }
 
+    /* Table Container */
+    .table-container {
+        padding: 20px 15px;
+    }
 
     /* donate buttons */
     .donate-amount {
