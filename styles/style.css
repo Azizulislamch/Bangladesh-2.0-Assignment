@@ -57,11 +57,6 @@ main {
     background-color: rgba(198, 228, 214, 1);
 }
 
-/* img{
-    max-width:100%;
-    height:auto;
-} */
-
 /* ===== Hero Section ===== */
 .hero {
     display: flex;
@@ -661,9 +656,21 @@ footer hr {
         font-size: 28px;
     }
 
+    img{
+        max-width: 100%;
+        height: auto;
+        display: block;
+    }
+
+
     /* pillars */
     .pillar {
         width: 100%;
+    }
+
+    /* Option Table */
+    .opinion-table {
+        padding: 30px;
     }
 
     /* donate buttons */
@@ -685,7 +692,7 @@ footer hr {
     #subscribe {
         width: 100%;
         border-radius: 8px;
-        margin-bottom: 10px;
+        margin-bottom: 20px;
     }
 
     .subs-btn {
